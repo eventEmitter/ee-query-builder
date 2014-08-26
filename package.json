@@ -1,7 +1,7 @@
 {
       "name"                        : "ee-query-builder"
     , "description"                 : "query builder for ee-orm"
-    , "version"                     : "0.2.6"
+    , "version"                     : "0.2.7"
     , "homepage"                    : "https://github.com/eventEmitter/ee-query-builder"
     , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                     : "mit"
@@ -16,8 +16,8 @@
         "url"                       : "https://github.com/eventEmitter/ee-query-builder/issues"
     }
     , "dependencies": {
-          "ee-class"                : "0.3.x"
-        , "ee-event-emitter"        : "0.1.x"
+          "ee-class"                : "1.0.x"
+        , "ee-event-emitter"        : "0.2.x"
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.2.x"
         , "ee-types"                : "0.1.x"
