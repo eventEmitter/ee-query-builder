@@ -1,4 +1,7 @@
 
 
 
-	module.exports = require('./lib/QueryBuilder');
+	module.exports = {
+          QueryBuilder: require('./lib/QueryBuilder')
+        , Functions:    require('./lib/Functions')
+    }

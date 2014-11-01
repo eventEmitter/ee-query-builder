@@ -1,14 +1,11 @@
 # ee-query-builder
 
-description
+SQL query builder for the ee-orm package. Implents the postgres syntax.
+
+See the following packages for db specific packages:
+- ee-postgres-query-builder
+- ee-mysql-query-builder
 
 ## installation
 
-
-
-## build status
-
-[![Build Status](https://travis-ci.org/eventEmitter/ee-query-builder.png?branch=master)](https://travis-ci.org/eventEmitter/ee-query-builder)
-
-
-## usage
+    npm install ee-query-builder
