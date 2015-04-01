@@ -1,28 +1,25 @@
 {
-      "name"                        : "ee-query-builder"
-    , "description"                 : "SQL query builder for the ee-orm package. Implents the postgres syntax."
+      "name"                        : "related-query-builder"
+    , "description"                 : "SQL query builder for the related package."
     , "version"                     : "0.5.0"
-    , "homepage"                    : "https://github.com/eventEmitter/ee-query-builder"
-    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "homepage"                    : "https://github.com/eventEmitter/related-query-builder"
+    , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)" 
     , "licence"                     : "mit"
     , "repository": {
-          "url"                     : "https://github.com/eventEmitter/ee-query-builder.git"
+          "url"                     : "https://github.com/eventEmitter/related-query-builder.git"
         , "type"                    : "git"
     }
     , "engines": {
         "node"                      : ">=v0.10.17"
     }
     , "bugs": {
-        "url"                       : "https://github.com/eventEmitter/ee-query-builder/issues"
+        "url"                       : "https://github.com/eventEmitter/related-query-builder/issues"
     }
     , "dependencies": {
           "ee-class"                : "1.0.x"
-        , "ee-event-emitter"        : "0.2.x"
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.2.x"
         , "ee-types"                : "0.1.x"
-        , "ee-arguments"            : "0.1.x"
-        , "moment"                  : "2.5.x"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}

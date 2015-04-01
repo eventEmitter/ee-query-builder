@@ -1,11 +1,3 @@
-# ee-query-builder
+# related-query-builder
 
-SQL query builder for the ee-orm package. Implents the postgres syntax.
-
-See the following packages for db specific packages:
-- ee-postgres-query-builder
-- ee-mysql-query-builder
-
-## installation
-
-    npm install ee-query-builder
+Builds SQL queries for the [Related ORM](https://www.npmjs.com/package/related).
