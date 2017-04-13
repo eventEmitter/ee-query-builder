@@ -1,7 +1,7 @@
 {
       "name"                        : "related-query-builder"
     , "description"                 : "SQL query builder for the related package."
-    , "version"                     : "2.3.1"
+    , "version"                     : "2.3.2"
     , "homepage"                    : "https://github.com/eventEmitter/related-query-builder"
     , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
     , "license"                     : "MIT"
@@ -10,7 +10,7 @@
         , "type"                    : "git"
     }
     , "engines": {
-        "node"                      : ">=v0.12"
+        "node"                      : ">=v6"
     }
     , "bugs": {
         "url"                       : "https://github.com/eventEmitter/related-query-builder/issues"
@@ -19,7 +19,7 @@
           "ee-class"                : "1.x"
         , "ee-types"                : "2.x"
         , "related-query-context"   : "2.x"
-        , "ee-log"                  : "0.3.x"
+        , "ee-log"                  : "1.x"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}
