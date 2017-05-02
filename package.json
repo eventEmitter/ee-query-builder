@@ -19,7 +19,7 @@
           "ee-class"                : "1.x"
         , "ee-types"                : "2.x"
         , "related-query-context"   : "2.x"
-        , "ee-log"                  : "1.x"
+        , "ee-log"                  : "^2.0.2"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}
