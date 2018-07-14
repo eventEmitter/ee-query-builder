@@ -1,29 +1,29 @@
 {
-      "name"                        : "related-query-builder"
-    , "description"                 : "SQL query builder for the related package."
-    , "version"                     : "2.4.0"
-    , "homepage"                    : "https://github.com/eventEmitter/related-query-builder"
-    , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
-    , "license"                     : "MIT"
-    , "repository": {
-          "url"                     : "https://github.com/eventEmitter/related-query-builder.git"
-        , "type"                    : "git"
-    }
-    , "engines": {
-        "node"                      : ">=v6"
-    }
-    , "bugs": {
-        "url"                       : "https://github.com/eventEmitter/related-query-builder/issues"
-    }
-    , "dependencies": {
-          "ee-class"                : "1.x"
-        , "ee-types"                : "2.x"
-        , "related-query-context"   : "2.x"
-        , "ee-log"                  : "2.x"
-    }
-    , "devDependencies": {}
-    , "optionalDependencies": {}
-    , "scripts": {
-        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    "name": "related-query-builder",
+    "description": "SQL query builder for the related package.",
+    "version": "2.5.1",
+    "homepage": "https://github.com/eventEmitter/related-query-builder",
+    "author": "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/eventEmitter/related-query-builder.git",
+        "type": "git"
+    },
+    "engines": {
+        "node": ">=v6"
+    },
+    "bugs": {
+        "url": "https://github.com/eventEmitter/related-query-builder/issues"
+    },
+    "dependencies": {
+        "ee-class": "1.x",
+        "ee-log": "3.x",
+        "ee-types": "^2.1.4",
+        "related-query-context": "^2.1.2"
+    },
+    "devDependencies": {},
+    "optionalDependencies": {},
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha --reporter spec"
     }
 }
